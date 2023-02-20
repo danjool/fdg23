@@ -5,9 +5,9 @@ const http = require('http')
 const https = require('https')
 const app = express()
 
-const privateKey = fs.readFileSync('/etc/letsencrypt/live/yourdomain.com/privkey.pem', 'utf8')
-const certificate = fs.readFileSync('/etc/letsencrypt/live/yourdomain.com/cert.pem', 'utf8')
-const ca = fs.readFileSync('/etc/letsencrypt/live/yourdomain.com/chain.pem', 'utf8')
+const privateKey = fs.readFileSync('/etc/letsencrypt/live/fdg23.net/privkey.pem', 'utf8')
+const certificate = fs.readFileSync('/etc/letsencrypt/live/fdg23.net/cert.pem', 'utf8')
+const ca = fs.readFileSync('/etc/letsencrypt/live/fdg23.net/chain.pem', 'utf8')
 
 const credentials = {
     key: privateKey,
