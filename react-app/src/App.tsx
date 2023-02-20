@@ -9,7 +9,7 @@ function App() {
     
     const callBackendAPI = async () => {
       console.log("ue")
-      const response = await fetch('/express_backend');
+      const response = await fetch('/nodes/query', {method: 'POST'});
       const body = await response.json();
   
       if (response.status !== 200) {

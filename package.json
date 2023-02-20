@@ -18,10 +18,16 @@
   "homepage": "https://github.com/danjool/fdg23#readme",
   "dependencies": {
     "express": "^4.18.2",
+    "express-promise-router": "^4.1.1",
     "pg": "^8.9.0",
     "sql-template-strings": "^2.2.2"
   },
   "devDependencies": {
-    "nodemon": "^2.0.20"
+    "csv-stream": "^0.2.0",
+    "fast-csv": "^4.3.6",
+    "let": "^0.0.2",
+    "line-reader": "^0.4.0",
+    "nodemon": "^2.0.20",
+    "request": "^2.88.2"
   }
 }
